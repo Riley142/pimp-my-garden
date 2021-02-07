@@ -6,8 +6,8 @@ hamburger.addEventListener('click', () => {
 });
 
 
-// setTimeout(function(){
-//     document.getElementById("popUp").style.display = "none";
-// }, 2000);
-
+setTimeout(function(){
+     let popUp = document.getElementById("popUp").remove();
+    console.log("delete pop up?")
+}, 2800);
 
