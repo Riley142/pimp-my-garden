@@ -60,7 +60,7 @@ button:hover{
 }
 
 #popUp img {
-    width:80%;
+    width:40%;
 }
 
 .animate__animated.animate__fadeOut {
@@ -496,6 +496,10 @@ input[type=submit]:hover {
 @media only screen and (max-width: 900px) {
     body {
         overflow-x: hidden; 
+    }
+
+    #popUp img {
+        width:60%;
     }
 
     .menu{ 
