@@ -5,6 +5,7 @@ font-family: 'Raleway', sans-serif;
 
 */
 
+
 * { 
     margin: 0 auto;
     padding: 0;
@@ -44,7 +45,7 @@ button:hover{
 }
 
 /* Pop up */
-.popUp {
+#popUp {
     position: absolute;
     top:0;
     right:0;
@@ -53,7 +54,20 @@ button:hover{
     background-color: #fff;
     z-index: 999;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
 }
+
+#popUp img {
+    width:80%;
+}
+
+.animate__animated.animate__fadeOut {
+    --animate-duration: 2s;
+}
+
+
 
 /* Navbar */
 .hamburger {
@@ -177,7 +191,7 @@ header {
 }
 
 .about p {
-    font-size: 1.5rem;g
+    font-size: 1.5rem;
 }
 
 .about img {
@@ -434,7 +448,7 @@ input[type=submit]:hover {
 @media only screen and (max-width: 1300px) {
     .header { 
         display:block;
-    }
+    }png
     .sectionHeader {
         font-size: 2.05rem;
     }
@@ -483,6 +497,7 @@ input[type=submit]:hover {
     body {
         overflow-x: hidden; 
     }
+
     .menu{ 
         display: none;
         width: 100%;
