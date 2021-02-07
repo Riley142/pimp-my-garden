@@ -6,6 +6,8 @@ hamburger.addEventListener('click', () => {
 });
 
 
-setTimeout(function(){
-    document.getElementById("popUp").style.display = "none";
-}, 2000);
+// setTimeout(function(){
+//     document.getElementById("popUp").style.display = "none";
+// }, 2000);
+
+

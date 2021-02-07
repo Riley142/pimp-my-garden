@@ -5,6 +5,7 @@ font-family: 'Raleway', sans-serif;
 
 */
 
+
 * { 
     margin: 0 auto;
     padding: 0;
@@ -44,7 +45,7 @@ button:hover{
 }
 
 /* Pop up */
-.popUp {
+#popUp {
     position: absolute;
     top:0;
     right:0;
@@ -55,11 +56,19 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0; 
 }
 
-.popUp img {
+#popUp img {
     width:80%;
 }
+
+.animate__animated.animate__fadeOut {
+    --animate-duration: 2s;
+}
+
+
+
 /* Navbar */
 .hamburger {
     display:none;
